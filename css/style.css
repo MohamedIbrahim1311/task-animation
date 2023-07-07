@@ -1,0 +1,152 @@
+body{
+    background-color: rgba(134, 241, 241, 0.637);
+    flex-wrap: wrap;
+}
+
+
+
+.car1{
+    width: 100px;
+    height: 100px;
+    animation-name: run;
+    animation-duration: 3s;
+    background-image: url(../image/shopping-cart.png);
+    background-size: cover;
+    position: absolute;
+    animation-timing-function: linear;
+    animation-fill-mode: both;
+}
+.car2{
+    width: 100px;
+    height: 100px;
+    animation-name: run2;
+    animation-duration: 3s;
+    background-image: url(../image/shopping-cart.png);
+    background-size: cover;
+    position: absolute;
+    animation-timing-function: linear;
+    animation-fill-mode: both;
+    animation-delay: 3s;
+    
+}
+.car3{
+    width: 100px;
+    height: 100px;
+    animation-name: run3;
+    animation-duration: 3s;
+    background-image: url(../image/shopping-cart.png);
+    background-size: cover;
+    position: absolute;
+    animation-timing-function: linear;
+    animation-fill-mode: both;
+    animation-delay: 6s;
+}
+.car4{
+    width: 100px;
+    height: 100px;
+    animation-name: run4;
+    animation-duration: 3s;
+    background-image: url(../image/shopping-cart.png);
+    background-size: cover;
+    position: absolute;
+    animation-timing-function: linear;
+    animation-fill-mode: both;
+    animation-delay: 9s;
+}
+.car5{
+    width: 100px;
+    height: 100px;
+    animation-name: run5;
+    animation-duration: 3s;
+    background-image: url(../image/shopping-cart.png);
+    background-size: cover;
+    position: absolute;
+    animation-timing-function: linear;
+    animation-fill-mode: both;
+    animation-delay: 12s;
+}
+.car6{
+    width: 100px;
+    height: 100px;
+    animation-name: run6;
+    animation-duration: 3s;
+    background-image: url(../image/shopping-cart.png);
+    background-size: cover;
+    position: absolute;
+    animation-timing-function: linear;
+    animation-fill-mode: both;
+    animation-delay: 15s;
+}
+@keyframes run{
+    0%{
+        left: 0; 
+        top: 50px;       
+    }
+   
+    100%{
+        left: 1260px;;
+        top: 50px;
+    }
+
+}
+@keyframes run2{
+    0%{
+        right: 0;
+        top: 150px;       
+    }
+    
+    100%{
+        right:1260px;
+        top: 150px;
+    }
+
+}
+@keyframes run3{
+    0%{
+        left:0;
+        top: 250px;       
+    }
+   
+    100%{
+        left:1260px;
+        top: 250px;
+    }
+
+}
+@keyframes run4{
+    0%{
+        right: 0;
+        top: 350px;       
+    }
+   
+    100%{
+        right:1260px;
+        top: 350px;
+    }
+
+}
+@keyframes run5{
+    0%{
+        left: 0;
+        top: 450px;       
+    }
+   
+    100%{
+        left:1260px;
+        top: 450px;
+    }
+
+}
+@keyframes run6{
+    0%{
+    
+        right: 0;
+        top: 550px;       
+    }
+   
+    100%{
+        right:1260px;
+        top: 550px;
+    }
+
+}
